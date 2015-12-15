@@ -1,0 +1,3 @@
+var app = require('./server/app')();
+// TODO: If setup takes time, we'll need a cb or promise...
+app.start();

@@ -1,0 +1,21 @@
+.header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard {
+  border: 1px solid blue;
+  float: left;
+  width: 50%;
+}
+
+.admin-functions {
+  border: 1px solid red;
+  float: right;
+  width: 50%;
+}
+
+.header-title {
+  margin: 50px;
+}

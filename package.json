@@ -17,12 +17,19 @@
   },
   "homepage": "https://github.com/eihli/admin-panel#readme",
   "dependencies": {
-    "grunt": "^0.4.5"
+    "express": "^4.13.3",
+    "grunt": "^0.4.5",
+    "mongodb": "^2.0.52",
+    "mongoose": "^4.3.1"
   },
   "devDependencies": {
+    "chai": "^3.4.1",
     "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-livereload": "^0.1.2",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha-test": "^0.12.7",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "superagent": "^1.5.0",
+    "supertest": "^1.1.0"
   }
 }

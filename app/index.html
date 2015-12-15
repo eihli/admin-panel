@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="scripts/scripts.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h2 class="header-title">Dashboard</h2>
+      <h2 class="header-title">Admin Functions</h2>
+    </div>
+    <div class="nav">
+    </div>
+    <div class="main">
+      <div class="dashboard">
+        <div class="dashboard-item">
+          <p>Total number of restaurants: {{numrestaurants}}</p>
+        </div>
+        <div class="dashboard-item">
+          <p>Total number of claimed restaurants: {{claimed}}</p>
+        </div>
+      </div>
+      <div class="admin-functions">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
